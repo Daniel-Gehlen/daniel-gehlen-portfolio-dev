@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Digital";
+  src: url("/fonts/digital.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --foreground-rgb: 255, 215, 0; /* Cor do texto (dourado) */
+  --background-start-rgb: 0, 0, 0; /* Cor de fundo inicial (preto) */
+  --background-end-rgb: 0, 0, 0; /* Cor de fundo final (preto) */
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  font-family: "Digital", sans-serif; /* Aplica a fonte Digital */
+}
+
+.text-gold {
+  color: #ffd700; /* Define a classe .text-gold */
+}
