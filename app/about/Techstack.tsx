@@ -1,11 +1,14 @@
 import React from "react";
 import { DiJava, DiNodejs, DiJavascript1, DiReact, DiMongodb, DiGit, DiPython } from "react-icons/di";
 import { SiTypescript, SiVuedotjs, SiAngular, SiMysql, SiPostgresql, SiDocker, SiKubernetes } from "react-icons/si";
+import { TbBrandMysql } from "react-icons/tb";
 
 export default function Techstack() {
   return (
     <div>
-      <h2 className="text-gold text-2xl mb-8 text-center">💡 Core Skills</h2>
+      <h2 className="text-2xl mb-8 text-center" style={{ color: 'transparent', WebkitTextStroke: '2px gold' }}>
+        Core Skills
+      </h2>
 
       {/* Back-End Development */}
       <div className="mb-8">
@@ -58,7 +61,7 @@ export default function Techstack() {
         <h3 className="text-gold text-xl mb-4 text-center">Database Management</h3>
         <div className="flex flex-wrap justify-center gap-6">
           <div className="tech-icons text-6xl flex flex-col items-center">
-            <SiMysql />
+            <TbBrandMysql />
             <p className="text-sm mt-2">MySQL</p>
           </div>
           <div className="tech-icons text-6xl flex flex-col items-center">

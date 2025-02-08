@@ -1,7 +1,9 @@
 export default function AboutCard() {
   return (
     <div>
-      <h2 className="text-gold text-2xl mb-4">📝 Things I Love</h2>
+      <h2 className="text-2xl mb-8 text-center" style={{ color: 'transparent', WebkitTextStroke: '2px gold' }}>
+        Things I Love
+      </h2>
       <ul className="list-disc list-inside text-gold">
         <li>Java ☕</li>
         <li>Backend Development 🖥️</li>

@@ -10,33 +10,33 @@ export default function About() {
     <Container fluid className="about-section bg-black bg-opacity-70 min-h-screen flex items-center justify-center">
       <Container className="text-center">
         {/* Título Principal */}
-        <h1 className="text-gold text-4xl mb-8">
+        <h1 className="text-gold text-4xl mb-8" style={{ fontFamily: "Digital, sans-serif" }}>
           About <strong className="text-gold">Me</strong>
         </h1>
 
         {/* Seção: Things I Love */}
-        <Row className="mb-8">
+        <Row className="mb-8" style={{ fontFamily: "Digital, sans-serif" }}>
           <Col>
             <AboutCard />
           </Col>
         </Row>
 
         {/* Seção: Core Skills */}
-        <Row className="mb-8">
+        <Row className="mb-8" style={{ fontFamily: "Digital, sans-serif" }}>
           <Col>
             <Techstack />
           </Col>
         </Row>
 
         {/* Seção: Tools I Use */}
-        <Row className="mb-8">
+        <Row className="mb-8" style={{ fontFamily: "Digital, sans-serif" }}>
           <Col>
             <Toolstack />
           </Col>
         </Row>
 
         {/* Seção: GitHub Contributions (Opcional) */}
-        <Row className="mb-8">
+        <Row className="mb-8" style={{ fontFamily: "Digital, sans-serif" }}>
           <Col>
             <Github />
           </Col>

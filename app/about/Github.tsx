@@ -5,8 +5,8 @@ import { Row } from "react-bootstrap";
 function Github() {
   return (
     <div className="text-center">
-      <h1 className="project-heading text-gold text-2xl mb-4">
-        Days I <strong className="text-gold">Code</strong>
+      <h1 className="text-2xl mb-8 text-center" style={{ color: 'transparent', WebkitTextStroke: '2px gold' }}>
+      Days I <strong className="text-gold">Code</strong>
       </h1>
       <Row className="flex justify-center">
         <GitHubCalendar

@@ -10,9 +10,9 @@ const config: Config = {
   ],
   theme: {
   	extend: {
-		fontFamily: {
-			digital: ["Digital", "sans-serif"],
-		  },
+      fontFamily: {
+        digital: ["Digital", "sans-serif"],
+      },
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',

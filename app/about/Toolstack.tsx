@@ -17,7 +17,9 @@ import { TbBrandVscode } from "react-icons/tb";
 function Toolstack() {
   return (
     <div>
-      <h2 className="text-gold text-2xl mb-8 text-center">🛠️ Tools I Use</h2>
+      <h2 className="text-2xl mb-8 text-center" style={{ color: 'transparent', WebkitTextStroke: '2px gold' }}>
+        Tools I Use
+      </h2>
 
       {/* Code Editors */}
       <div className="mb-8">

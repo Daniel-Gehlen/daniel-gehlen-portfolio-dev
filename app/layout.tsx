@@ -6,7 +6,7 @@ import type React from "react" // Import React
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Matrix Portfolio",
+  title: "Daniel Gehlen Portfolio",
   description: "A Matrix-themed portfolio website",
 }
 
