@@ -35,7 +35,7 @@ export default function Home() {
   return (
     <main className="min-h-screen flex flex-col items-center justify-center text-gold">
       {/* Contêiner do texto com altura fixa */}
-      <div className="text-4xl mb-8 h-12 flex items-center justify-center" style={{ fontFamily: "Digital, sans-serif" }}>
+      <div className="text-4xl mb-8 h-12 flex items-center justify-center text-center w-full" style={{ fontFamily: "Digital, sans-serif" }}>
         {name}
       </div>
       <div
