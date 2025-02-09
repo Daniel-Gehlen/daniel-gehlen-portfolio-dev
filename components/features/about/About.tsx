@@ -1,4 +1,5 @@
 "use client";
+
 import { Container, Row, Col } from "react-bootstrap";
 import AboutCard from "./AboutCard";
 import Techstack from "./Techstack";
@@ -7,8 +8,8 @@ import Github from "./Github";
 
 export default function About() {
   return (
-    <Container fluid className="about-section bg-black bg-opacity-70 min-h-screen flex items-center justify-center">
-      <Container className="text-center">
+    <Container fluid className="about-section bg-black bg-opacity-70 min-h-screen flex flex-col items-center justify-center">
+      <Container className="text-center pt-16 md:pt-8">
         {/* Título Principal */}
         <h1 className="text-gold text-4xl mb-8" style={{ fontFamily: "Digital, sans-serif" }}>
           About <strong className="text-gold">Me</strong>

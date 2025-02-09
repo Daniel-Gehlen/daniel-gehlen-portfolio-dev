@@ -14,6 +14,7 @@ import {
 } from "react-icons/si";
 
 import { TbBrandVscode } from "react-icons/tb";
+
 function Toolstack() {
   return (
     <div>
@@ -26,7 +27,7 @@ function Toolstack() {
         <h3 className="text-gold text-xl mb-4 text-center">Code Editors</h3>
         <Row className="flex flex-wrap justify-center gap-6">
           <Col xs={4} md={2} className="tech-icons text-6xl">
-            <TbBrandVscode  />
+            <TbBrandVscode />
             <p className="text-sm mt-2">VS Code</p>
           </Col>
           <Col xs={4} md={2} className="tech-icons text-6xl">
