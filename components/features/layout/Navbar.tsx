@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="bg-black bg-opacity-70 p-4">
       <ul className="flex justify-center space-x-6">
         <NavItem href="/" icon={<Home />} text="Home" />
-        <NavItem href="/about" icon={<User />} text="About" />
+        <NavItem href="/features/about" icon={<User />} text="About" />
         <NavItem href="/projects" icon={<Folder />} text="Projects" />
         <NavItem href="/resume.pdf" icon={<FileText />} text="Resume" isExternal />
       </ul>

@@ -1,7 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import ProjectCard from "../components/ProjectCard"
+import ProjectCard from "../../components/features/projects/ProjectCard"
 import { fetchAllRepositories } from "../utils/github"
 
 export default function Projects() {
