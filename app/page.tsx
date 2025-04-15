@@ -6,7 +6,7 @@ import { useTypewriter } from "./hooks/useTypewriter";
 
 export default function Home() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
-  const name = useTypewriter("Daniel Gehlen", "Software Developer", 150, 1000);
+  const name = useTypewriter("Daniel Gehlen", "Junior Developer", 150, 1000);
 
   useEffect(() => {
     const handleMouseMove = (e: MouseEvent) => {
