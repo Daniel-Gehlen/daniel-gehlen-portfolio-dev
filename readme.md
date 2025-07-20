@@ -126,35 +126,6 @@ matrix-portfolio-v2/
 
 ---
 
-#### 6. **Exemplo de README.md**
-Aqui está um exemplo de `README.md` para o projeto:
-
-```markdown
-# Matrix Portfolio V2
-
-Portfólio pessoal desenvolvido com Next.js, TypeScript e Tailwind CSS.
-
-## Tecnologias Utilizadas
-- **Next.js**: Framework React para SSR e SSG.
-- **TypeScript**: Adiciona tipagem estática ao JavaScript.
-- **Tailwind CSS**: Framework CSS utilitário.
-- **React Hooks**: Hooks personalizados (`useTypewriter`, `use-mobile`, `use-toast`).
-
-## Estrutura do Projeto
-```
-matrix-portfolio-v2/
-├── app/               # Rotas e páginas do Next.js
-├── public/            # Assets estáticos (imagens, SVGs)
-├── components/        # Componentes reutilizáveis
-├── hooks/             # Hooks personalizados
-├── lib/               # Utilitários
-├── styles/            # Estilos globais
-├── next.config.mjs    # Configurações do Next.js
-├── tailwind.config.ts # Configurações do Tailwind CSS
-├── tsconfig.json      # Configurações do TypeScript
-└── package.json       # Dependências do projeto
-```
-
 ## Como Executar
 1. Clone o repositório:
    ```bash
@@ -172,8 +143,3 @@ matrix-portfolio-v2/
 
 ## Licença
 MIT
-```
-
----
-
-Essa análise e estrutura devem ajudar a organizar e documentar o projeto de forma clara e profissional.
