@@ -14,7 +14,7 @@ export default function Home() {
   const [projects, setProjects] = useState<Project[]>([]);
   const [loading, setLoading] = useState(true);
   const [isClient, setIsClient] = useState(false);
-  const name = useTypewriter("Daniel Gehlen", "Junior Developer", 150, 1000);
+  const name = useTypewriter("Daniel Gehlen", "Full-Stack Developer", 150, 1000);
 
   useEffect(() => {
     setIsClient(true);
